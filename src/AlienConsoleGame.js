@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, ResponsiveContainer } from 'recharts';
 
 const StressMeter = ({ stress }) => (
   <div className="bg-gray-800 p-4 rounded-lg">
